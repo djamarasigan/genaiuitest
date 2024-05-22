@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.image('resibot-logo_dark.png')
+st.image(resibot-logo_dark.png)
 
 st.write("")
 
