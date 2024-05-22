@@ -1,5 +1,7 @@
 import streamlit as st
 
+st.image('"E:\Downloads\resibot-logo_dark.png"')
+
 st.write("")
 
 #headers
