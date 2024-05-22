@@ -1,5 +1,27 @@
 import streamlit as st
 
+def set_bg_image(img_path):
+  """
+  Function to set a background image for the app
+
+  Args:
+      img_path (str): Path to the background image file
+  """
+  st.markdown(
+      f"""
+      <style>
+      .stApp {{
+        background-image: url("data:image/png;base64,{base64.b64encode(open({https://foto.wuestenigel.com/wp-content/uploads/api/receipt-on-a-white-background.jpeg}, "rb").read()).decode()});
+        background-size: cover;
+      }}
+      </style>
+      """,
+      unsafe_allow_html=True,
+  )
+  
+# Set the path to your background image
+img_path = "background.jpg"  # Replace with your image path
+set_bg_image(https://foto.wuestenigel.com/wp-content/uploads/api/receipt-on-a-white-background.jpeg)
 #space
 st.write("")
 
