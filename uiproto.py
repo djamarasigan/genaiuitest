@@ -1,6 +1,4 @@
 import streamlit as st
-import numpy as np
-from openai import OpenAI
 
 #space
 st.write("")
@@ -16,7 +14,7 @@ st.write("")
 #upload button
 st.file_uploader(
   'Upload Button',
-  help='Upload here your receipts.'
+  help='Upload here your receipt.'
 )
 
 # Create expanders with titles like tabs
