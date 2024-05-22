@@ -27,8 +27,8 @@ expander2 = st.expander("AI Chat History")
 with expander1:
   st.write("Chat with AI for assistance.")
   prompt = st.chat_input("Say something")
-    if prompt:
-      st.write(f{prompt}")
+  if prompt:
+    st.write(f{prompt}")
     
 with expander2:
   st.write("You can see here your AI chat history.")
