@@ -36,6 +36,3 @@ with expander1:
 
 with expander2:
     st.write("Data analysis and visualizations here.")
-
-with expander3:
-    st.write("Summary and concluding remarks.")
