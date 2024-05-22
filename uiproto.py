@@ -24,7 +24,7 @@ expander2 = st.expander("AI Chat History")
 # Add content specific to each expander
 with expander1:
   language = st.selectbox("Language", ["English", "Filipino"])
-  with st.chat_message("user"):
+  with st.chat_message("robot"):
     if language:
       freeform_text = st.text_area(label="What is your question?",max_chars=100)
     if freeform_text:
