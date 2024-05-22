@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.image("https://i.imgur.com/IBKGfXO.png")
+st.image("https://imgur.com/SqyF5E3")
 
 
 #headers
