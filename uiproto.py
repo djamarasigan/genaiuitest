@@ -27,7 +27,7 @@ expander2 = st.expander("AI Chat History")
 with expander1:
   st.title("ChatGPT-like clone")
 
-  client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
+  client = OpenAI(api_key=st.secrets["sk-proj-Eq8r0p04kHoAbLjStep8T3BlbkFJr8JyNTd4kEmIyJDsJqwR"])
   
   if "openai_model" not in st.session_state:
       st.session_state["openai_model"] = "gpt-3.5-turbo"
