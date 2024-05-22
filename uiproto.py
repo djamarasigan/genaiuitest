@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.image("https://foto.wuestenigel.com/wp-content/uploads/api/receipt-on-a-white-background.jpeg")
+st.image("https://drive.google.com/file/d/1md-2RCzGGB9QQV_j9Vc5t-NlZx2WxNTe/view?usp=sharing")
 
 
 #headers
