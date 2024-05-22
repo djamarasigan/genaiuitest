@@ -25,7 +25,7 @@ expander2 = st.expander("AI Chat History")
 # Add content specific to each expander
 with expander1:
   with st.chat_message("user"):
-    st.write("Hello 👋")
+    st.write("How may I assist you?")
 
 # Display a chat input widget at the bottom of the app.
     st.chat_input("Say something")
