@@ -2,7 +2,6 @@ import streamlit as st
 
 st.image(resibot-logo_dark.png)
 
-st.write("")
 
 #headers
 st.header('resi-bot')
