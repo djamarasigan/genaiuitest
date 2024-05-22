@@ -18,13 +18,21 @@ st.file_uploader(
 )
 
 # Create expanders with titles like tabs
-expander1 = st.expander("Tab 1: Introduction")
-expander2 = st.expander("Tab 2: Data Analysis")
-expander3 = st.expander("Tab 3: Conclusion")
+expander1 = st.expander("New AI Chat")
+expander2 = st.expander("AI Chat History")
 
 # Add content specific to each expander
 with expander1:
-    st.write("Content for the introduction section.")
+  with st.chat_message("user"):
+    st.write("Hello 👋")
+    st.line_chart(np.random.randn(30, 3))
+
+# Display a chat input widget at the bottom of the app.
+  st.chat_input("Say something")
+
+# Display a chat input widget inline.
+  with st.container():
+    st.chat_input("Say something")
 
 with expander2:
     st.write("Data analysis and visualizations here.")
