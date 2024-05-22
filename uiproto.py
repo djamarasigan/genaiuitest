@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.image(C:\Users\David Joshua\.streamlit\resibot-logo_dark.png)
+st.image("https://foto.wuestenigel.com/wp-content/uploads/api/receipt-on-a-white-background.jpeg")
 
 
 #headers
